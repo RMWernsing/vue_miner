@@ -19,7 +19,7 @@ export const AppState = reactive({
       quantity: 0,
       multiplier: 10,
       priceMultiplier: 1.2,
-      powerMultiplier: 1.1
+      powerMultiplier: 1.05
     }),
     new ClickUpgrade({
       name: 'Pickaxe', 
@@ -27,7 +27,7 @@ export const AppState = reactive({
       quantity: 0,
       multiplier:50,
       priceMultiplier: 1.4,
-      powerMultiplier: 1.3
+      powerMultiplier: 1.08
     }),
     new ClickUpgrade({
       name: 'Drill',
@@ -35,7 +35,7 @@ export const AppState = reactive({
       quantity: 0,
       multiplier: 750,
       priceMultiplier: 1.8,
-      powerMultiplier: 1.7
+      powerMultiplier: 1.1
     })
   ]
 })

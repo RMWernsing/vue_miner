@@ -67,7 +67,20 @@ let clickPower = computed(() => AppState.clickPower)
             </div>
           </div>
         </div>
-        <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <div class="row mt-5">
+            <div class="col-md-4">
+              <div class="text-center">
+                <button class="btn btn-warning" type="button"> upgrade +
+                  1</button>
+                <div class="text-light">
+                  <p>price: $0</p>
+                  <p>quantity: 0</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
